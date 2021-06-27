@@ -1,0 +1,354 @@
+
+
+body{
+	padding:0px;
+	margin:0px;
+	background-color:#CCC;
+	}
+#social{
+	width:100%x;
+	height:40px;
+	background-color:#333;
+	margin: 0px auto;
+	}
+	
+#left_social{
+	width:400px;
+	height:40px;
+	float:left;
+	}
+
+#fa{
+    color: #ffffff;
+    line-height: 1.3;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#fa:hover{
+    color: #ff6060;
+    transition: 1s all;
+    
+}
+	
+#center_social{
+	width:400px;
+	height:40px;
+
+	float:left;
+	}
+	
+#right_social{
+	width:400px;
+	height:40px;
+	
+	float:left;
+	}
+
+#searchform{
+    margin-top: 10px;
+    margin-left: 80px;
+    
+}
+
+#sbtn:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: 1s all;
+}
+	
+#header{
+	width:1200px;
+	height:320px;
+	background-color:#FFF;
+	margin:0px auto;
+	border-bottom:#000 solid 4px;
+	}
+	
+#menu{
+	width:1200px;
+	height: 40px;
+	background-color:#333;
+	margin:0px auto;
+	}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#menu ul li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+#menu ul li:hover{
+    border-left: 3px solid #ffffff;
+    border-right:3px solid #ffffff;
+    transition: 1s all;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+#menu ul li:hover a{
+    transition: 1s all;
+    font-weight: bold;
+    
+}
+#home{
+    margin-right: 15px;
+}
+
+#menu ul li ol{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+
+#menu ul li ol li{
+    display: inherit;
+    text-align: left;
+    text-indent: 15px;
+    transition: 1s all;
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+    background-color: rgba(149, 149, 149, 0.65);
+    margin-bottom: 2px;
+    position: relative;
+}
+#sub:hover ol{
+    visibility: visible;
+    overflow: visible;
+}
+
+#sub:hover ol li{
+    width: 200px;
+    height: 40px;
+}
+
+
+#intro{
+    width: 1200px;
+    height: 300px;
+    background-color: #4b4b4b;
+    margin: 0px auto;
+}
+
+#pic{
+    width: 285px;
+    height: 280px;
+    background-color: #a5a5a5;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 20px;
+}
+
+#circle{
+    width: 80%;
+    height: 80%;
+    margin-left: 9%;
+    margin-top: 9%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#introduction{
+    width: 885px;
+    height: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #a5a5a5;
+    float: left;
+    border-radius: 20px;
+}
+
+#products{
+    width: 1200px;
+    height: 70px;
+    background-color: #4b4b4b;
+    margin: 0px auto;
+}
+
+#ptext{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+#prolist{
+    width: 1200px;
+    height: 300px;
+    background-color: #4b4b4b;
+    margin: 0px auto;
+}
+
+#pro1{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#pro2{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#pro3{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#pro4{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#icon1{
+    line-height: 1.9;
+    color: white;
+}
+
+#icon1:hover{
+    color: #c4c4c4;
+    transition: 1s all;
+    font-size: 170px;
+}
+
+#proname{
+    width: 1200px;
+    height: 70px;
+    background-color: #4b4b4b;
+    margin: 0px auto;
+}
+
+#pr1name{
+    width: 300px;
+    height: 70px;
+    float: left;
+}
+
+#pr2name{
+    width: 300px;
+    height: 70px;
+    float: left;
+}
+
+#pr3name{
+    width: 300px;
+    height: 70px;
+    float: left;
+}
+
+#pr4name{
+    width: 300px;
+    height: 70px;
+    float: left;
+}
+
+#info{
+    width: 1200px;
+    height: 600px;
+    background-color: #4b4b4b;
+    margin: 0px auto;
+}
+
+#message{
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+#address{
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+#firstname{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 100px;
+}
+
+#textfirst{
+ width: 300px;
+height: 25px;
+    font-size: 17px;
+    margin-left: 100px;
+    margin-top: 5px;
+    
+}
+
+#lable{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 5px;
+    
+}
+
+#textbox{
+    width: 300px;
+    height: 25px;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: #4b4b4b;
+    
+}
+
+#footer1{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+#footer2{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+#footer3{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+#footer4{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
